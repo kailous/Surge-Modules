@@ -1,1 +1,10 @@
+#!name=FigmaCN
+#!desc=Figma 汉化模块
+#!system=mac
 
+[URL Rewrite]
+https:\/\/www\.figma\.com\/webpack-artifacts\/assets\/figma_app-[a-f0-9]{16}\.min\.en\.json\.br https://raw.githubusercontent.com/kailous/Figma-UI3-Surge/main/lang/zh.json.br 307
+
+[MITM]
+skip-server-cert-verify = true
+hostname = *.figma.com
