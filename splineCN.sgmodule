@@ -1,6 +1,6 @@
 [Script]
 # NewScript-w6jrhqdv
-http-response ^https?:\/\/.*\.(netlify\.app|spline\.design)\/ script-path=https://zdo.fun/splineCN.js, requires-body=false, timeout=10, tag=NewScript-w6jrhqdv
+http-response ^https?:\/\/.*\.(netlify\.app|spline\.design)\/ script-response-body https://zdo.fun/splineCN.js, requires-body=true, timeout=10, tag=NewScript-w6jrhqdv
 
 [MITM]
 hostname = *.netlify.app, *.spline.design
